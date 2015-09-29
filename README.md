@@ -23,3 +23,5 @@ You can find all releases on [Maven Central](http://search.maven.org/#search%7Cg
 ------------
 
 https://twitter.com/artem_zin
+
+Credits for very first ProGuard rules in this library goes to [@felipecsl](https://github.com/felipecsl)!
