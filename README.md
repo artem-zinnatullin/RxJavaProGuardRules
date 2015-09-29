@@ -8,4 +8,12 @@ Example: RxJava `1.0.14`, RxJavaProGuardRules `1.0.14.0`. Easy breezy :)
 
 ------------
 
+####Download
+Latest release: `com.artemzin.rxjava:proguard-rules:1.0.14.0`
+
+You can find all releases on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.artemzin.rxjava%22%20AND%20a%3A%22proguard-rules%22).
+
+
+------------
+
 Contact me: https://twitter.com/artem_zin
