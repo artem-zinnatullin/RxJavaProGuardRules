@@ -18,16 +18,16 @@ configurations {
     compileJavadoc
 }
 
-android.libraryVariants.all { variant ->
-    def name = variant.buildType.name
-    if (name.equals('debug')) {
-        return; // Skip debug builds.
-    }
-    def task = project.tasks.create "jar${name.capitalize()}", Jar
-    task.dependsOn variant.javaCompile
-    task.from variant.javaCompile.destinationDir
-    artifacts.add('archives', task);
-}
+//android.libraryVariants.all { variant ->
+//    def name = variant.buildType.name
+//    if (name.equals('debug')) {
+//        return; // Skip debug builds.
+//    }
+//    def task = project.tasks.create "jar${name.capitalize()}", Jar
+//    task.dependsOn variant.javaCompile
+//    task.from variant.javaCompile.destinationDir
+//    artifacts.add('archives', task);
+//}
 
 apply plugin: 'maven'
 apply plugin: 'signing'
@@ -138,8 +138,8 @@ afterEvaluate { project ->
         from android.sourceSets.main.java.sourceFiles
     }
 
-    artifacts {
-        archives androidSourcesJar
-        archives androidJavadocsJar
-    }
+    //artifacts {
+    //    archives androidSourcesJar
+    //    archives androidJavadocsJar
+    //}
 }
