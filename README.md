@@ -2,9 +2,9 @@
 
 Versioning principle:
 
-Imagine RxJava has version `x.y.z` — RxJavaProGuardRules version will be `x.y.z.n` where `n` is minor patch version of ProGuard rules for the concrete version of RxJava!
+Imagine RxJava has version `x.y.z` — RxJavaProGuardRules version will be `x.y.z.n` where `n` is patch version of ProGuard rules for the concrete version of RxJava!
 
-Example: RxJava `1.0.14`, RxJavaProGuardRules `1.0.14.n`. Easy breezy :)
+Example: RxJava `1.0.14`, RxJavaProGuardRules `1.0.14.n`. Easy breezy.
 
 ------------
 
@@ -24,4 +24,4 @@ You can find all releases on [Maven Central](http://search.maven.org/#search%7Cg
 
 https://twitter.com/artem_zin
 
-Credits for very first ProGuard rules in this library goes to [@felipecsl](https://github.com/felipecsl)!
+Credits for the very first ProGuard rules in this library goes to [@felipecsl](https://github.com/felipecsl)!
