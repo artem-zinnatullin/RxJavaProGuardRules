@@ -6,6 +6,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
         versionName VERSION_NAME
         versionCode Integer.parseInt(VERSION_CODE)
 
