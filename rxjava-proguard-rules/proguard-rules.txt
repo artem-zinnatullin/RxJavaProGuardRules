@@ -6,6 +6,6 @@
 }
 
 -keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
-   long producerNode;
-   long consumerNode;
+   rx.internal.util.atomic.LinkedQueueNode producerNode;
+   rx.internal.util.atomic.LinkedQueueNode consumerNode;
 }
