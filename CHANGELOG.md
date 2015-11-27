@@ -1,6 +1,12 @@
 RxJava ProGuard Rules Change Log
 ==========
 
+## Version 1.0.16.1
+
+_2015-11-27_
+
+* [Fix keeping fields of BaseLinkedQueue](https://github.com/artem-zinnatullin/RxJavaProGuardRules/issues/16)
+
 ## Version 1.0.16.0
 
 _2015-11-16_

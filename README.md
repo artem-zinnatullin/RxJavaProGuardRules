@@ -15,7 +15,7 @@ Example: RxJava `1.0.16`, RxJavaProGuardRules `1.0.16.n`. Easy breezy.
 compile 'io.reactivex:rxjava:1.0.16'
 
 // And ProGuard rules for RxJava!
-compile 'com.artemzin.rxjava:proguard-rules:1.0.16.0'
+compile 'com.artemzin.rxjava:proguard-rules:1.0.16.1'
 ```
 
 You can find all releases on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.artemzin.rxjava%22%20AND%20a%3A%22proguard-rules%22), and here is [the file with ProGuard rules](rxjava-proguard-rules/proguard-rules.txt).
