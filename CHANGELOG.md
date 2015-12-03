@@ -1,6 +1,12 @@
 RxJava ProGuard Rules Change Log
 ==========
 
+## Version 1.0.16.2
+
+_2015-12-3_
+
+* [Fix rules for BaseLinkedQueueConsumerNodeRef and BaseLinkedQueueProducerNodeRef again](https://github.com/artem-zinnatullin/RxJavaProGuardRules/pull/19)
+
 ## Version 1.0.16.1
 
 _2015-11-27_
