@@ -1,6 +1,12 @@
 RxJava ProGuard Rules Change Log
 ==========
 
+## Version 1.1.1.0
+
+_2016_02_18_
+
+* Just a release for RxJava 1.1.1, no changes in ProGuard rules since 1.0.16.2
+
 ## Version 1.1.0.0
 
 _2015_12_14_
