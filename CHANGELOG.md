@@ -1,6 +1,14 @@
 RxJava ProGuard Rules Change Log
 ==========
 
+## Version 1.1.5.0
+
+_2016_05_12_
+
+* Just a release for RxJava 1.1.5, no changes in ProGuard rules since 1.0.16.2
+* Release for 1.1.4 is skipped because RxJava 1.1.4 has critical bug in operator `filter()`.
+
+
 ## Version 1.1.3.0
 
 _2016_04_11_
