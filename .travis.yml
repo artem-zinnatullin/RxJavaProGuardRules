@@ -10,7 +10,7 @@ android:
     - build-tools-23
 
 script:
-  - sh ci.sh
+  - bash ci/pr.sh
 
 notifications:
   email: false
