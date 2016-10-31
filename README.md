@@ -1,5 +1,13 @@
 ##ProGuard rules for RxJava shipped as AAR!
 
+### Note about RxJava 2.x
+
+At the moment ProGuard rules for RxJava 2.x are not required, it doesn't use Reflection nor Unsafe in a ways that require ProGuard. If at some point rules for RxJava 2.x/3.x/etc will be required — this project will be updated accordingly.
+
+See issue [#44 for more info](https://github.com/artem-zinnatullin/RxJavaProGuardRules/issues/44).
+
+---
+
 Versioning principle:
 
 Imagine RxJava has version `x.y.z` — RxJavaProGuardRules version will be `x.y.z.n` where `n` is patch version of ProGuard rules for the concrete version of RxJava!
