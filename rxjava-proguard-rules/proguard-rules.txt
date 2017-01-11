@@ -12,3 +12,7 @@
 -keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
     rx.internal.util.atomic.LinkedQueueNode consumerNode;
 }
+
+-keepclassmembers class rx.schedulers.CachedThreadScheduler$EventLoopWorker {
+    volatile int once;
+}
