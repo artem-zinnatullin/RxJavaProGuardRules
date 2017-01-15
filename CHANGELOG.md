@@ -1,6 +1,12 @@
 RxJava ProGuard Rules Change Log
 ==========
 
+## Version 1.2.5.1
+
+_2016_01_15_
+
+* Add `dontwarn` for `rx.internal.util.PlatformDependent` 🎉.
+
 ## Version 1.2.5.0
 
 _2016_12_15_
