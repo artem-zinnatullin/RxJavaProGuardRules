@@ -1,4 +1,4 @@
-##ProGuard rules for RxJava shipped as AAR!
+## ProGuard rules for RxJava shipped as AAR!
 
 ### Note about RxJava 2.x
 
@@ -16,7 +16,7 @@ Example: RxJava `1.2.7`, RxJavaProGuardRules `1.2.7.n`. Easy breezy.
 
 ------------
 
-####Download
+#### Download
 
 ```groovy
 // RxJava itself
