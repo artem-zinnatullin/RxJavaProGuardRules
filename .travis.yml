@@ -6,8 +6,8 @@ jdk: oraclejdk8
 
 android:
   components:
-    - android-23
-    - build-tools-23
+    - android-25
+    - build-tools-26.0.1
 
 script:
   - bash ci/pr.sh
